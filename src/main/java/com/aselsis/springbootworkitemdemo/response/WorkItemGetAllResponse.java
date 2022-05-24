@@ -7,11 +7,11 @@ import java.util.Date;
 
 @Data
 @NoArgsConstructor
-public class WorkItemResponse {
+public class WorkItemGetAllResponse {
 
     private Long id;
 
-    private Date date;
+    private Date createdDate;
 
     private String title;
 

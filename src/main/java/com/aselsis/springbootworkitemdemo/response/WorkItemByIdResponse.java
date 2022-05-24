@@ -11,7 +11,8 @@ public class WorkItemByIdResponse {
 
     private Long id;
 
-    private Date date;
-
     private String title;
+
+    private Date createdDate;
+
 }

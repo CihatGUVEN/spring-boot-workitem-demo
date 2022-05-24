@@ -15,7 +15,7 @@ public class SimpleWorkItemDto {
 
     private Long id;
 
-    private Date date;
-
     private String title;
+
+    private String description;
 }

@@ -17,10 +17,10 @@ public class WorkItem {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-//    @NotNull
+    @Column(columnDefinition = "boolean default false")
     private  boolean resolved;
 
-    private Date date;
+    private Date createdDate;
 
     private String title;
 

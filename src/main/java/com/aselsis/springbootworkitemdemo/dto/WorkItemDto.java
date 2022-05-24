@@ -17,7 +17,7 @@ public class WorkItemDto {
 
     private  boolean resolved;
 
-    private Date date;
+    private Date createdDate;
 
     private String title;
 

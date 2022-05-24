@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class WorkItemUpdateStateRequest {
+public class WorkItemUpdateStatueRequest {
 
     private  boolean resolved;
 
